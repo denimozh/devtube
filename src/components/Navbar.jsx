@@ -5,12 +5,12 @@ import MenuIcon from '@mui/icons-material/Menu';
 import PersonIcon from '@mui/icons-material/Person';
 import { grey } from '@mui/material/colors';
 
-const Navbar = () => {
+const Navbar = ({ handleClick }) => {
   return (
-    <div className='flex flex-row justify-between items-center pt-4 '>
-      <div className='flex gap-4 items-center'>
+    <div className='flex flex-row justify-between items-center pt-4 pb-2'>
+      <div className='flex gap-8 items-center'>
         <div className='px-3 py-2 sidebar-icon'>
-          <MenuIcon sx={{ color: grey[50], fontSize: 30 }}/>
+          <MenuIcon sx={{ color: grey[50], fontSize: 30 }} onClick={handleClick}/>
         </div>
         <Link to={"/"}>
           <p className='text-2xl text-white font-medium tracking-wide'><b className='text-red-500 pl-2'>DEV</b>TUBE</p>
