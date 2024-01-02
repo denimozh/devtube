@@ -10,8 +10,8 @@ const App = () => {
   };
   return (
     <BrowserRouter>
-        <div className='bg-black px-5'>
-          <div >
+        <div className='bg-black '>
+          <div className='px-5'>
             <Navbar handleClick={handleOpen}/>
           </div>
             <Routes>
