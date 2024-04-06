@@ -1,4 +1,4 @@
-# YouTube Clone
+# DevTube
 
 This project is a full-stack clone of YouTube, utilizing JavaScript for both frontend and backend development. The clone fetches data using a Rapid API, offering a similar browsing experience to YouTube. Tailwind CSS is employed for styling to ensure a sleek and modern user interface.
 
